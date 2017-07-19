@@ -55,7 +55,7 @@
 <div class = "box" ng-app="MyApp" ng-controller="controllerAcreditacion">
     <div class = "box-body">
         <form id="form_acreditacion" method="POST" action="" name="form_acreditacion" >
-            {{ csrf_field() }}
+            {!! csrf_field() !!}
             <div class="form-group row">
                     <div class="col-md-6">
                         <label for="id_producto" class="control-label">
