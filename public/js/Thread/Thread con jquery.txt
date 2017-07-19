@@ -1,0 +1,25 @@
+1-Copiar los archivos:
+    "Concurrent.Thread.Compiler+Http.js"
+    "Concurrent.Thread.js"
+  a tu carpeta js.
+
+2- Incluir el archivo "Concurrent.Thread.js" en tu proyecto:
+ <script src="js/Concurrent.Thread.js"></script>
+
+
+3- Para ejecutar una funcion en un ilo diferente al principal de la pagina web se inserta la funcion dentro de la funcion del thread....  hacer lo siguiente:
+   En este caso la funcion es "setInterval();"
+
+    Ej:
+
+    Concurrent.Thread.create(function () {
+
+        setInterval(function () {
+
+                if (datosTaxistaQueAcepto != "") {
+                    getPosicionTaxista();
+                    marker2.setVisible(true);
+                }
+            },
+            3000);
+    });
