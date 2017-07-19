@@ -1,0 +1,15 @@
+{
+	"title": "Child Table",
+	"type": "child",
+	"attribute": {
+		"required": {			
+			"controller":"Controller name of Child Module"
+		},		
+		"requiredOne":{
+
+		},
+		"optional":{
+			
+		}
+	}
+}

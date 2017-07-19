@@ -1,0 +1,15 @@
+{
+	"title":"Google Maps",
+	"type":"googlemaps",
+	"attribute":{
+		"required":{
+			"latitude":"string column of latitude",
+			"longitude":"string column of longitude"
+		},
+		"optional":{
+			"address":"string column of address"	
+		}
+		
+		
+	}
+}
